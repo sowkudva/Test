@@ -1,4 +1,4 @@
-
+//This program finds the medians of 2 sorted arrays
 public class MedianOfarrays {
 	static int comparision(int[] A, int[] B,int[] C)
 	{
@@ -44,8 +44,6 @@ public class MedianOfarrays {
 		}
 		int m1 = (C.length-1)/2;
 		int m2 = (C.length)/2;
-		System.out.println(m1);
-		System.out.println(m2);
 		int median= (C[m1]+C[m2])/2;
 		return median;
 	}

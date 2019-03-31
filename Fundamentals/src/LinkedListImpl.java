@@ -5,7 +5,7 @@ public class LinkedListImpl {
 	//head of the linked list which is of type 'Node'
 	//private Node head;
 	
-	//method to print the contents of the linbked list
+	//method to print the contents of the linked list
 	public void dispaly(Node head)
 	{
 		//if no elements, loop s returned
